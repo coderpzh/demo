@@ -1,0 +1,207 @@
+/*公共样式开始*/
+.ggys{width: 1200px;margin: 0 auto;}
+/*公共样式结束*/
+
+/*公共标题开始*/
+.ggbt{width: 100%;height: 80px;line-height: 80px;font-size: 30px;
+      text-align: center; font-weight: 400;margin:20px 0;
+      background: no-repeat url(../img/redline.png) center;
+      letter-spacing: 3px;}
+/*公共标题结束*/
+
+/*公共板块开始*/
+.ggbk a{border-radius:10px;float: left;display: block;
+        box-shadow:0 0 10px #ccc;overflow:hidden;}
+.ggbk a p{height:30px;line-height:30px;background:white;padding:0 10px;} 
+.ggbk a:hover img{filter:contrast(80%);}
+.ggbk a:hover p{color: blue;}      
+ /*公共板块结束*/       
+        
+body{background: #f3f3f3;font-size: 14px;}
+
+/*头部开始*/
+.top{height: 88px; position: relative; /*background: #ccc;*/}
+
+.top .logo{display:block;width:214px;height:58px;
+		   position:absolute;left:0;top:15px;}
+		   
+.top .search{width:330px;height:36px;
+			border:1px solid #ccc;border-radius:18px;
+			background:white;position:absolute;
+			left:50%;margin-left:-165px;top:26px;overflow: hidden;}
+								
+.top .search .inp1{width:260px;height:36px;border:none;padding:0 15px;}
+.top .search .inp2{width:60px;height:36px;border:none;
+					border-radius:18px;background: #acce22;}
+
+.top .user{position:absolute;right:0px;top:30px;
+			width:180px;height:28px;line-height:28px;}
+			
+.top .user a{width:78px;height:28px;display:inline-block;
+			text-align:center; font-size:16px;color:#000;}			
+/*头部结束*/
+
+/*<导航条开始*/
+.dht{height:44px;line-height:44px;text-align:center;}
+.dht .nav1{width:800px;}
+.dht .nav2{width:240px;}
+.dht a{width:80px;height:44px;color:white;display:block;float:left;}
+.nav1 a:hover{color: #00aeff;font-size: 16px;}
+.nav2 a:hover{background: #ca3333;}
+/*<导航条结束*/
+
+/*幻灯片开始*/
+/*.hdp{position: relative;}*/
+.hdp1{height: 330px;position: relative;}
+
+.hdp2{width: 240px;height: 310px;
+	  background: rgba(0,0,0,0.7);
+	  position: absolute;right: 10px;top: 10px;
+	  border-radius:5px ;padding: 10px 10px;
+	  color: white;line-height: 30px;}
+
+.hdp2 h3{text-align: center;}	 
+.hdp2 a{color: white;font-size: 13px;}
+.hdp2 ul li{list-style: disc;}
+.hdp2 ul{position: absolute;left: 20px;}
+/*幻灯片结束*/
+
+/*远程培训班开始*/
+.pxb{height: 163px; background: white;}
+
+.pxb a{width: 208px;height: 113px;float: left;
+       border-radius: 15px;overflow: hidden;
+       color: white;font-size: 25px;font-weight: 700;
+       text-shadow: 2px 2px 2px black;
+       text-align: center;line-height: 113px;
+       margin:25px 16px;background:no-repeat 0 0/100% 100%;}
+
+.pxb .a1{background-image:url(../img/otherFun1.jpg);}
+		   
+.pxb .a2{background-image:url(../img/otherFun2.jpg);}
+
+.pxb .a3{background-image:url(../img/otherFun3.jpg);}
+
+.pxb .a4{background-image:url(../img/otherFun4.jpg);}
+		   
+.pxb .a5{background-image:url(../img/otherFun5.jpg);}	
+
+.pxb a div{width: 100%;height: 100%;background-color: rgba(0,0,0,0.3);}
+
+.pxb .b2{line-height: normal;padding-top:20px ;}	
+
+.pxb a:hover{background-size:110%;}	   	   
+/*远程培训班结束*/
+
+/*最新课程开始*/
+.zxkc a{width: 270px;height: 240px;margin: 20px 15px;}   
+.zxkc a img{width: 270px;height: 210px;}
+/*最新课程结束*/
+
+/*热门推荐开始*/
+.rmtj a{width:210px;height:210px;margin: 20px 15px;}
+.rmtj a img{width:210px;height:180px;}
+
+.rmtj1 a{width: 80px;height: 30px;display: block;float: left;
+				 line-height: 30px;text-align: center;margin: 0 19px;}
+				 
+.rmtj-b{background:#0078ff;color: white;border-radius:5px;}
+.rmtj1{padding: 0 10px;}
+.rmtj-a:hover{color: blue;}
+/*热门推荐结束*/
+
+/*课程分类开始*/
+.kc-box{margin-bottom: 60px;}
+.kc-a{padding: 0 7px;border-bottom:2px #f5f5f5 solid;}
+.kc-a a{display: block;float: left;height: 20px;margin:0 8px;}
+.kc-b a{width:210px;height:190px;margin: 10px 15px;}
+.kc-b a img{width:210px;height:160px;} 
+.kc-a .aa:hover{color: blue;}
+.kc-a .bb{color: white;background: #00aeff;width: 60px;line-height:22px;
+					 text-align: center;border-radius:4px;font-size: 12px;
+					 height: 22px;margin-bottom: 6px;}				 
+/*课程分类结束*/
+
+/*热门职业开始*/
+.rmzy{padding-bottom:50px;}
+
+.rmzy-box{display: block; width:260px;height:290px;
+					position: relative;float: left;margin:0 20px;
+					border-radius: 15px;overflow: hidden;}
+					
+.rmzy-box img{width: 200px;height: 200px;border-radius:50%;
+							overflow: hidden;position: absolute;left:30px;top:20px;}
+							
+.rmzy-box p{text-align: center;position: absolute;bottom: 10px;left:30px;
+						width: 200px;color: white;font-size: 25px;}													
+/*热门职业结束*/
+
+/*名师简介开始*/
+.msjj{padding-bottom:60px;}
+.msjj p{width: 100%;text-align: center;font-size: 20px;}
+.m1{display: block;float: right;margin-right: 20px;}
+.m1:hover{color: #3374b1;}
+
+.msjj-box a{display: block;width:260px;height:310px;background:#e7e7e7;
+						float:left;margin:0 20px;text-align: center;padding-top:40px;}
+						
+.msjj-box a img{width: 170px;height: 170px;border-radius:50%;
+							  overflow: hidden;}	
+							  
+.msjj-box .m2{font-size:20px;line-height: 40px;padding-top:15px;}
+							
+.msjj-box .m3{color:#6b6b6b;font-size: 12px;}												
+/*名师简介结束*/
+
+/*尾部开始*/
+.wb{padding-left:30px;padding-top:30px;}
+.wb p{margin-bottom:20px;}
+
+.wb .s1{margin-right:20px;margin-bottom:20px;}
+.wb .s2{font-size: 12px;margin: 0 10px;}
+
+.wb2 a{margin:0 10px;}
+.wb2 a img{height: 30px;}
+
+.wb3{padding-left:85px;}
+.wb3 a{font-size:12px;margin:5px;}
+.wb3 a:hover{color:blue;}
+
+.wb4{text-align:center;font-size:12px;}
+.wb4 a{display:inline-block;width:65px;height:20px;color: white;
+				background:#3899dd;text-align: center;line-height:20px;
+				margin:0 5px;border-radius:3px;overflow: hidden;}
+.wb4 a:hover{background: blue;}
+
+.wb5{font-size: 12px;text-align: center;}
+.wb5 img{vertical-align: middle;}	
+.wb5 a:hover{color:#5270a9;text-decoration: underline;}			
+/*尾部结束*/
+
+/*快速跳转开始*/
+.kstz{position: fixed;width: 60px;left:50%;top: 20%;margin-left:-686px;}
+
+.kstz a{display: block;width: 60px;height: 60px;background: white;
+				border-radius: 50%;text-align: center;padding-top:10px;
+				box-shadow: 0 0 10px #CCCCCC;margin:20px auto ;}
+								
+.kstz a:hover{color: #5493d1;}
+/*快速跳转结束*/
+
+/*官方微信开始*/
+.gfwx{text-align: center;position: fixed;right:100px;top: 20%;}
+
+.gfwx a{display: block;width: 50px;height: 50px;background: white;
+				border-radius: 5px;box-shadow: 0 0 10px #CCCCCC;margin: 20px auto;
+			  text-align: center;padding-top: 6px;}
+			  
+.gfwx span{display: none;}
+
+.gfwx .wx{background: no-repeat url(../img/index.png) center;}
+.gfwx .qq{background: no-repeat url(../img/index1.png) center;}
+.gfwx .app{background: no-repeat url(../img/index2.png) center;}
+.gfwx .db{background: no-repeat url(../img/index3.png) center;}
+
+.gfwx a:hover span{display: block;}
+.gfwx a:hover{background: none;}								
+/*官方微信结束*/
